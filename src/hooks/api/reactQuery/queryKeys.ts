@@ -1,0 +1,38 @@
+export const queryKeys = {
+  enums: {
+    ban: "ban",
+    ticket: "ticket",
+    channel: "channel",
+    criteria: "criteria",
+    saleState: "saleState",
+    orderState: "orderState",
+    searchState: "searchState",
+    returnReason: "returnReason",
+    cancelReason: "cancelReason",
+    inquiryFilter: "inquiryFilter",
+    changeCriteria: "changeCriteria",
+    searchCondition: "searchCondition",
+    inquiryCondition: "inquiryCondition",
+    cancelReturnState: "cancelReturnState",
+    nonTicketCriteria: "nonTicketCriteria",
+  },
+  order: {
+    all: "all",
+    issue: "issue",
+    count: "count",
+    return: "return",
+  },
+  admin: { list: "list", exist: "exist" },
+  ticket: "ticket",
+  product: {
+    all: "all",
+    detail: "detail",
+    modify: "modify",
+    recommend: "recommend",
+  },
+  counsel: {
+    qa: "qa",
+    report: "report",
+    counsel: "counsel",
+  },
+};

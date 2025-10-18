@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    // 컴파일 타겟 설정
+    "target": "ESNext",
+    // 사용할 라이브러리 설정
+    "lib": ["DOM", "DOM.Iterable", "ESNext", "WebWorker"],
+    // JavaScript 파일 허용
+    "allowJs": true,
+    // 라이브러리 검사 건너뛰기
+    "skipLibCheck": true,
+    // ES 모듈 인터롭 허용
+    "esModuleInterop": true,
+    // 기본 내보내기 허용
+    "allowSyntheticDefaultImports": true,
+    // 엄격한 타입 검사
+    "strict": false,
+    // 파일 이름 대소문자 일관성 강제
+    "forceConsistentCasingInFileNames": true,
+    // switch 문에서 fallthrough 방지
+    "noFallthroughCasesInSwitch": true,
+    // 모듈 시스템 설정
+    "module": "ESNext",
+    // 모듈 해상도 설정
+    "moduleResolution": "node",
+    // JSON 모듈 해상도 허용
+    "resolveJsonModule": true,
+    // 고립된 모듈 설정
+    "isolatedModules": true,
+    // 컴파일 결과물 생성하지 않음
+    "noEmit": true,
+    // 사용되지 않는 로컬 변수 경고
+    "noUnusedLocals": true,
+    // 사용되지 않는 매개변수 경고
+    "noUnusedParameters": true,
+    // JSX 설정
+    "jsx": "react-jsx",
+    // 암시적인 any 타입 사용 허용
+    "noImplicitAny": false,
+    // 기본 경로 설정
+    "baseUrl": "./src",
+    // 경로 별칭 설정
+    "paths": {
+      "@/*": ["./*"],
+      "@components/*": ["./components/*"],
+      "@assets/*": ["./assets/*"],
+      "@pages/*": ["./pages/*"],
+      "@util/*": ["./util/*"],
+      "@typing/*": ["./typing/*"]
+    },
+    // 타입 루트 설정
+    "typeRoots": ["./node_modules/@types", "./public/font.d.ts", "./custom.d.ts"]
+  },
+  // 포함할 파일 설정
+  "include": ["src/**/*", "**/*.ts", "**/*.tsx", "**/*.ttf"],
+  // 제외할 파일 설정
+  "exclude": ["./tsconfig.path.json"]
+}
