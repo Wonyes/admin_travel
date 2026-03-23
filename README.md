@@ -111,106 +111,113 @@ Axios 호출부의 반복 코드와 컴포넌트마다 오버레이(Modal/Alert)
 ---
 
 ## 🖥️ 사용자 및 관리자 서비스 UI (Gallery)
-
-<details>
-<summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer;">🛍️ 메인, 탐색 및 상세 페이지 (클릭)</summary>
+<details open>
+<summary style="font-size: 1.5rem; font-weight: bold; cursor: pointer; color: #0052CC;">📍 Core Dashboard & Real-time Monitoring</summary>
 <br />
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/bcafb10c-45ca-4775-9b05-e1d66f0fe612" width="32%" />
-  <img src="https://github.com/user-attachments/assets/845ae749-589e-4c7c-9e79-0dc27d72f697" width="32%" />
-  <img src="https://github.com/user-attachments/assets/20836e4b-1e11-408c-8544-c9a991ec5d9c" width="32%" />
-  <br /><sub><i>메인 추천/베스트 상품 | 검색 및 인기검색어 | 관심 상품</i></sub>
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a991e4ef-a70e-4eca-bcb3-146e74ec28ba" width="32%" />
-  <img src="https://github.com/user-attachments/assets/2b690713-1e26-4efe-b1e1-968f875ffacb" width="32%" />
-  <img src="https://github.com/user-attachments/assets/4db6baff-3a6f-4d2a-ac5a-ab015905a0a9" width="32%" />
-  <br /><sub><i>상품 상세 페이지 | ↳ 상세 페이지 문의 | ↳ 상세 페이지 리뷰</i></sub>
-</p>
-</details>
-
-<details>
-<summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer;">💳 장바구니 및 결제 연동 (클릭)</summary>
-<br />
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/479b7b48-e7c2-4105-9643-b099f26e38d9" width="32%" />
-  <img src="https://github.com/user-attachments/assets/6a8b4ca6-8437-4df9-b260-3068a1fa13a5" width="32%" />
-  <img src="https://github.com/user-attachments/assets/8bfe97d7-d8ae-4366-b1ff-05c8e5beff9e" width="32%" />
-  <br /><sub><i>장바구니 | 상품 결제 페이지 | ↳ 토스페이먼츠 연동 결제</i></sub>
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/13e22342-d1f9-469d-9ab0-107569dc6fbc" width="32%" />
-  <br /><sub><i>↳ 결제 완료 페이지</i></sub>
-</p>
-</details>
-
-<details>
-<summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer;">👤 마이페이지 및 정보수정 (클릭)</summary>
-<br />
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/c3aba5e0-ca40-409d-b2ea-e647f53edbf5" width="48%" />
-  <img src="https://github.com/user-attachments/assets/42ee9ea6-ced2-4eee-8a6a-7844866923ce" width="48%" />
-  <br /><sub><i>마이 페이지 | 회원정보 수정 홈</i></sub>
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/9a55fe97-3884-4b0e-81a4-52ac5d0af37d" width="32%" />
-  <img src="https://github.com/user-attachments/assets/4776becf-5b36-47e2-b181-876ba7f74c0a" width="32%" />
-  <img src="https://github.com/user-attachments/assets/955fa59c-da06-4932-9388-be722efe249f" width="32%" />
-  <br /><sub><i>↳ 이름 변경 | ↳ 닉네임 변경 | ↳ 전화번호 변경</i></sub>
-</p>
-</details>
-
-<details>
-<summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer;">🔄 구매/취소 내역 및 리뷰 작성 (클릭)</summary>
-<br />
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0ba19cab-3066-4ec8-aef8-05dd51724abf" width="32%" />
-  <img src="https://github.com/user-attachments/assets/e20182f3-bd98-4444-a736-3c7028e440b4" width="32%" />
-  <img src="https://github.com/user-attachments/assets/2fab49cb-4375-4cd7-96f8-0fb61c689b75" width="32%" />
-  <br /><sub><i>구매내역 | ↳ 구매상세내역 | ↳ 구매취소 모달</i></sub>
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/f1000d47-b522-497c-bac9-bd791ffb46c4" width="48%" />
-  <img src="https://github.com/user-attachments/assets/ab748537-0f89-4803-9a33-7566f003ea44" width="48%" />
-  <br /><sub><i>취소/반품 완료내역 | ↳ 환불상세내역</i></sub>
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/75074a55-b3ec-4524-bd8d-59f2d865dc77" width="32%" />
-  <img src="https://github.com/user-attachments/assets/35606ac3-7d94-4fd8-9ba1-4e54e474ac85" width="32%" />
-  <img src="https://github.com/user-attachments/assets/8987b8d3-4028-4f88-9e0b-ae7dfab014ed" width="32%" />
-  <br /><sub><i>후기 리스트 | ↳ 후기 작성 페이지 | ↳ 후기 작성 완료</i></sub>
-</p>
-</details>
-
-<details>
-<summary style="font-size: 1.2rem; font-weight: bold; cursor: pointer; color: #666666;">⚙️ [Admin] 관리자 시스템 스크린샷 갤러리 (클릭)</summary>
-<br />
+<p align="left"><i>실시간 현황 대시보드 및 티켓 사용 처리 핵심 화면</i></p>
 <table width="100%">
-  <tr>
-    <td width="50%"><img src="https://github.com/user-attachments/assets/0f622164-4072-4b60-bead-8f6ce69c082a" /></td>
-    <td width="50%"><img src="https://github.com/user-attachments/assets/ac39a114-5bc2-4397-8c9a-7205f6427c70" /></td>
+  <tr align="center">
+    <td width="50%"><img src="https://github.com/user-attachments/assets/0f622164-4072-4b60-bead-8f6ce69c082a" width="100%" /></td>
+    <td width="50%"><img src="https://github.com/user-attachments/assets/ac39a114-5bc2-4397-8c9a-7205f6427c70" width="100%" /></td>
   </tr>
-  <tr>
-    <td colspan="2" align="center"><sub><i>실시간 현황 대시보드 및 티켓 관리 모니터링</i></sub></td>
+  <tr align="center">
+    <td><sub><i>실시간 현황 대시보드</i></sub></td>
+    <td><sub><i>티켓 사용 처리 및 모니터링</i></sub></td>
   </tr>
 </table>
+</details>
+<br />
+
+<details>
+<summary style="font-size: 1.5rem; font-weight: bold; cursor: pointer; color: #0052CC;">📦 Product & Inventory Management</summary>
+<br />
+<p align="left"><i>상품 등록, 수정, 삭제 및 통합 리스트 관리 인터페이스입니다.</i></p>
 <table width="100%">
-  <tr>
-    <td width="33%"><img src="https://github.com/user-attachments/assets/2c7f5e26-d72d-400b-bd5a-b64c1d34e34b" /></td>
-    <td width="33%"><img src="https://github.com/user-attachments/assets/c77b8c8c-a140-4811-8bd8-80d0634399e3" /></td>
-    <td width="33%"><img src="https://github.com/user-attachments/assets/55a75221-71e0-44c0-8692-9c3d9428143d" /></td>
+  <tr align="center">
+    <td width="50%"><img src="https://github.com/user-attachments/assets/2c7f5e26-d72d-400b-bd5a-b64c1d34e34b" width="100%" /></td>
+    <td width="50%"><img src="https://github.com/user-attachments/assets/bb441e47-1ed0-4add-b8bd-6a7c40569134" width="100%" /></td>
   </tr>
-  <tr>
-    <td colspan="3" align="center"><sub><i>상품 등록 ➔ 네이버 연동 옵션 제어 ➔ 취소/환불 클레임 파이프라인</i></sub></td>
+  <tr align="center">
+    <td><sub><i>상품 리스트 및 등록 관리</i></sub></td>
+    <td><sub><i>상품 정보 및 재고 수정</i></sub></td>
+  </tr>
+  <tr align="center">
+    <td width="50%"><img src="https://github.com/user-attachments/assets/0f1c5460-51c0-4d96-9402-63e6ca5b7fc8" width="100%" /></td>
+    <td width="50%"><img src="https://github.com/user-attachments/assets/c77b8c8c-a140-4811-8bd8-80d0634399e3" width="100%" /></td>
+  </tr>
+  <tr align="center">
+    <td><sub><i>네이버 스마트스토어 연동 제어</i></sub></td>
+    <td><sub><i>상품 목록 내 상세 제어 인터페이스</i></sub></td>
   </tr>
 </table>
+</details>
+<br />
+
+<details>
+<summary style="font-size: 1.5rem; font-weight: bold; cursor: pointer; color: #0052CC;">🧾 Order & Claim Pipeline</summary>
+<br />
+<p align="left"><i>주문 확인부터 취소/환불 요청 승인, 반품 처리까지의 정밀한 클레임 프로세스입니다.</i></p>
 <table width="100%">
-  <tr>
-    <td width="50%"><img src="https://github.com/user-attachments/assets/497c82f5-dd3c-4f20-8d8d-ea59708f5524" /></td>
-    <td width="50%"><img src="https://github.com/user-attachments/assets/20334c37-be73-49fb-b7d3-f5266559a290" /></td>
+  <tr align="center">
+    <td width="50%"><img src="https://github.com/user-attachments/assets/640d9f21-4a2e-41bc-816d-a3db372df201" width="100%" /></td>
+    <td width="50%"><img src="https://github.com/user-attachments/assets/55a75221-71e0-44c0-8692-9c3d9428143d" width="100%" /></td>
   </tr>
-  <tr>
-    <td colspan="2" align="center"><sub><i>어드민 계정 권한 등록 ➔ 1:1 고객 문의 답변 시스템</i></sub></td>
+  <tr align="center">
+    <td><sub><i>전체 주문 및 결제 내역 확인</i></sub></td>
+    <td><sub><i>클레임 파이프라인 (취소/환불)</i></sub></td>
+  </tr>
+  <tr align="center">
+    <td width="50%"><img src="https://github.com/user-attachments/assets/dfb64feb-df7c-4669-9c12-90431ad770ba" width="100%" /></td>
+    <td width="50%"><img src="https://github.com/user-attachments/assets/281274b3-c851-486a-83e3-1b6e569f1e1e" width="100%" /></td>
+  </tr>
+  <tr align="center">
+    <td><sub><i>취소 및 환불 상세 처리 내역</i></sub></td>
+    <td><sub><i>클레임 승인 모달 UI</i></sub></td>
+  </tr>
+  <tr align="center">
+    <td colspan="2"><img src="https://github.com/user-attachments/assets/276e3d1e-e239-418c-9f3b-5294cdd24f31" width="49%" /></td>
+  </tr>
+  <tr align="center">
+    <td colspan="2"><sub><i>클레임 거부 모달 UI</i></sub></td>
+  </tr>
+</table>
+</details>
+<br />
+
+<details>
+<summary style="font-size: 1.5rem; font-weight: bold; cursor: pointer; color: #0052CC;">👥 Admin & CS Management</summary>
+<br />
+<p align="left"><i>어드민 계정 권한 설정 및 1:1 문의 답변 시스템입니다.</i></p>
+<table width="100%">
+  <tr align="center">
+    <td width="50%"><img src="https://github.com/user-attachments/assets/497c82f5-dd3c-4f20-8d8d-ea59708f5524" width="100%" /></td>
+    <td width="50%"><img src="https://github.com/user-attachments/assets/3d35b9b5-0290-4472-aba9-3c96f8603bfd" width="100%" /></td>
+  </tr>
+  <tr align="center">
+    <td><sub><i>어드민 계정 권한 리스트</i></sub></td>
+    <td><sub><i>신규 어드민 계정 추가 폼</i></sub></td>
+  </tr>
+  <tr align="center">
+    <td width="50%"><img src="https://github.com/user-attachments/assets/2fdb363e-9306-447b-a4b2-56f063a29182" width="100%" /></td>
+    <td width="50%"><img src="https://github.com/user-attachments/assets/20334c37-be73-49fb-b7d3-f5266559a290" width="100%" /></td>
+  </tr>
+  <tr align="center">
+    <td><sub><i>권한 레벨 상세 설정 모달</i></sub></td>
+    <td><sub><i>고객 1:1 문의(CS) 리스트</i></sub></td>
+  </tr>
+  <tr align="center">
+    <td width="50%"><img src="https://github.com/user-attachments/assets/c6ec6979-e933-4469-916f-a340c5b455a3" width="100%" /></td>
+    <td width="50%"><img src="https://github.com/user-attachments/assets/f76a6268-c309-44e6-b803-ead23329fd4d" width="100%" /></td>
+  </tr>
+  <tr align="center">
+    <td><sub><i>문의 상세 내역 및 첨부 이미지</i></sub></td>
+    <td><sub><i>문의 답변 작성 인터페이스</i></sub></td>
+  </tr>
+  <tr align="center">
+    <td colspan="2"><img src="https://github.com/user-attachments/assets/04a3bf70-25c9-4cb8-b052-0fe4b3e8a684" width="49%" /></td>
+  </tr>
+  <tr align="center">
+    <td colspan="2"><sub><i>답변 완료 상태 확인</i></sub></td>
   </tr>
 </table>
 </details>
@@ -239,15 +246,18 @@ Axios 호출부의 반복 코드와 컴포넌트마다 오버레이(Modal/Alert)
 | **🔄 비동기 통신 제어** | 공통 API 래핑 모듈과 React Query를 활용해 데이터 패칭, 캐싱, 리페치 로직 추상화. |
 | **🗑️ 낙관적 동기화 업데이트** | 리뷰 등 데이터 삭제 시, 서버 통신 완료 전 UI를 즉시 반영하여 지연 없는 사용자 경험 제공. |
 
-### 👤 사용자 기능 (B2C)
+### 🔧 관리자 기능
 | **기능** | **설명** |
 | :--- | :--- |
-| **🔑 소셜 회원가입 및 로그인** | OAuth2를 활용한 소셜 로그인, 회원가입 및 프로필 정보 수정 기능 제공 |
-| **💳 상품 구매 및 결제 연동** | **Toss Payments API**를 연동하여 장바구니부터 간편 결제까지의 파이프라인 구축 |
-| **📦 주문 라이프사이클 관리** | 상품 주문 ➔ 결제 ➔ 구매 확정 ➔ 주문 취소/반품까지의 전 과정 제어 |
-| **⭐ 리뷰 및 커뮤니티** | 리뷰 작성(이미지 첨부), 별점 평가, 썸네일 지원 및 부적절 리뷰 신고 시스템 |
-| **🔍 상품 검색 및 필터링** | 실시간 인기 검색어 출력, 키워드 검색 및 관심 상품(즐겨찾기) 기능 제공 |
-| **💬 실시간 고객 소통** | 상품 상세 페이지 직접 문의 및 마이페이지 1:1 문의 내역 관리 시스템 |
+| **🔑 관리자 로그인** | 관리자 계정으로 로그인 가능 |
+| **➕➖ 관리자 계정 생성/삭제** | 관리자 계정을 생성하거나 삭제할 수 있는 기능 |
+| **🗂️ 상품 및 카테고리 관리** | 상품 및 카테고리를 추가, 수정, 삭제할 수 있는 기능 |
+| **🤝 네이버 스마트스토어 연동** | 네이버 스마트스토어와 연동하여 상품 및 주문 데이터를 동기화 |
+| **📦 주문 상태 관리** | 주문 확인, 취소, 반품 상태를 관리할 수 있는 기능 |
+| **🎫 티켓 발급 및 사용 처리** | 예약 티켓 발급 및 사용 상태를 관리 |
+| **🚨 리뷰 신고 관리** | 신고된 리뷰를 확인하고 처리할 수 있는 기능 |
+| **💬 상품 문의 및 1:1 문의 응답** | 사용자 문의에 대한 응답 기능 |
+| **🌟 추천상품 등록 및 삭제** | 추천상품을 등록하거나 삭제할 수 있는 기능 |
 
 <br />
 
