@@ -8,21 +8,6 @@
 
 ---
 
-## 👨‍💻 개발 기간 및 인원
-
-- **기간**: 2025.02 ~ 2025.05
-- **구성**: 2인으로 기획된 프로젝트이며 기획 **공동**, 디자인 및 프론트엔드/CI·CD AWS 배포는 **프론트**가 전담하였습니다.
-
-<div align="center">
-
-| <img src="https://avatars.githubusercontent.com/u/186001551?v=4" width="150" height="150"/> | <img src="https://avatars.githubusercontent.com/u/92082963?v=4" width="150" height="150"/> |
-| :---: | :---: |
-| **BACK-END**<br/>[@silver-sunny](https://github.com/silver-sunny) | **FRONT-END / DESIGN / DevOps**<br/>[@Wonyes](https://github.com/Wonyes) |
-
-</div>
-
----
-
 ## 🌐 배포 링크
 
 | **페이지** | **바로가기** |
