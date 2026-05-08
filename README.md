@@ -12,9 +12,9 @@
 
 | **페이지** | **바로가기** |
 | :--- | :--- |
-| **사용자 페이지** | [🔗 사용자페이지 바로가기](https://travelidge.shop) |
-| **관리자 페이지** | [🔗 관리자페이지 바로가기](https://admin.travelidge.shop) |
-| **API 명세서** | [🔗 API명세서 바로가기](https://api.travelidge.shop/swagger-ui) |
+| **사용자 페이지** | [🔗 사용자페이지 바로가기](https://travelidge.store) |
+| **관리자 페이지** | [🔗 관리자페이지 바로가기](https://admin.travelidge.store) |
+| **API 명세서** | [🔗 API명세서 바로가기](https://api.travelidge.store/swagger-ui) |
 
 ---
 
