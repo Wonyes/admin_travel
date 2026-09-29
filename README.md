@@ -20,7 +20,7 @@
 
 ## 🔧 기술적 도전과 핵심 아키텍처 (Engineering Decisions)
 
-### 1️⃣ 디자인 시스템 기반의 커스텀 UI Kit 및 Hooks 추상화 (개발 생산성 60% 향상)
+### 1️⃣ 디자인 시스템 기반의 커스텀 UI Kit 및 Hooks 추상화 
 <details open>
 <summary><b>전역 타이포그래피 토큰화 및 컴포넌트 자동완성을 통한 DX(Developer Experience) 극대화</b></summary>
 <br />
@@ -33,7 +33,7 @@
 - **다형성 컴포넌트(`<Text>`) 개발:** TypeScript를 활용해 `$class="subTitle"`과 같이 프롭스를 주입하면 IDE에서 **자동 완성(Auto-complete)**이 지원되도록 커스텀 팩토리 함수(`createTextBox`)를 설계했습니다.
 - **로직/UI 분리:** `useQueryString`, `useCalendarLogic`, `useOverlay` 등 수십 개의 커스텀 훅을 개발해 UI 컴포넌트에서 비즈니스 로직을 완벽히 분리해 냈습니다.
 
-**결과:** 일관된 디자인 시스템 적용 및 중복 코드 제거를 통해 **전체 프론트엔드 개발 속도가 약 60% 이상 향상**되는 압도적인 효율을 이끌어냈습니다.
+**결과:** 일관된 디자인 시스템 적용 및 중복 코드 제거를 통해 **전체 프론트엔드 개발 속도 향상**되는 효율을 이끌어냈습니다.
 </details>
 
 ### 2️⃣ 방대한 데이터 테이블의 UX 최적화 (반반 스크롤 테이블)
